@@ -2,7 +2,8 @@ package lt.bt.Java2.TrikampiuPalyginimas;
 
 import java.util.*;
 
-public class MainTriangle {
+public class MainTriangleHashSet {
+
     public static void main(String[] args) {
 
         Set<Trikampis> trikampiai = new HashSet<>();
@@ -12,10 +13,13 @@ public class MainTriangle {
         trikampiai.add(new Trikampis(3, 5, 4));
 
         System.out.println("Viso skirtingu trikampiu " + trikampiai.size());
+        System.out.println("Trikampiai: "+trikampiai );
     }
 }
 
 class Trikampis {
+
+
 
     private double a, b, c;
 
@@ -25,15 +29,19 @@ class Trikampis {
         this.c = c;
     }
 
-private List<Double> SortTriangle (){
-    List<Double> triangleList = Arrays.asList(a, b, c);
-        triangleList.sort(Comparator.naturalOrder());
-        setA(triangleList.get(0));
-        setB(triangleList.get(1));
-        setC(triangleList.get(2));
-//            System.out.println("bandymas " + triangleList);
-    return triangleList;
-}
+//    public double trPl(){
+//        double P = (a + b + c)/2;
+//        double S = Math.sqrt(P * (P - a) * (P - b) * (P - c));
+//        return S;
+//    }
+
+    private List<Double> sortTriangle(){
+        List<Double> triangleList = Arrays.asList(a, b, c);
+            triangleList.sort(Comparator.naturalOrder());
+        return triangleList;
+    }
+
+
 
     public double getA() {
         return a;
@@ -59,20 +67,34 @@ private List<Double> SortTriangle (){
         this.c = c;
     }
 
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Trikampis trikampis = (Trikampis) o;
-        return Double.compare(trikampis.a, a) == 0 &&
-                Double.compare(trikampis.b, b) == 0 &&
-                Double.compare(trikampis.c, c) == 0;
+        List<Double> t1 = this.sortTriangle();
+        List<Double> t2 = trikampis.sortTriangle();
+
+        return Double.compare(t1.get(0), t2.get(0)) == 0 &&
+                Double.compare(t1.get(1), t2.get(1)) == 0 &&
+                Double.compare(t1.get(2), t2.get(2)) == 0;
+
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(SortTriangle());
 
+        return Objects.hash(sortTriangle());
+
+
+    }
+
+    @Override
+    public String toString() {
+        return "Trikampis{" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c +
+                '}';
     }
 }
