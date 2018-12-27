@@ -27,16 +27,8 @@ public class MainTriangleTreeSet {
             return -Double.compare(o1.c, o2.c);
         };
 
-        Comparator<Triangle> comparator2 = (o1, o2) ->
-                Double.compare(o1.a+o1.b+o1.c, o2.a+o2.b+o2.c)
-                ;
-
         triangle.sort(comparator);
         System.out.println("Trikampiai sulygiuoti kitaip: " + triangle);
-
-
-
-        //TODO Nepamirsti pakeisti lambdas i metodu nuorodas!
         Triangle.I a1 = Math::random;
         System.out.println(a1.value());
 
@@ -130,6 +122,7 @@ class Triangle implements Comparable<Triangle> {
 
         return Double.compare(a+b+c, o.a+o.b+o.c);
     }
+
     interface I {
         double value();
     }

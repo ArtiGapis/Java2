@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d9557ba6-6ed5-4b8d-bbd9-515ebd08af3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/bt/Java2/TrikampiuPalyginimas/MainTriangleTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/bt/Java2/TrikampiuPalyginimas/MainTriangleTreeSet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/TrikampiuPalyginimas/MainTriangleHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -39,17 +41,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/TrikampiuPalyginimas/MainTriangleTreeSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="1615">
+              <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -58,7 +60,29 @@
         <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Metod.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/ObjectEquals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/GenericInterator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#220#228#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,6 +108,8 @@
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/Metod.java" />
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/TrikampiuPalyginimas/MainTriangleTreeSet.java" />
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/ObjectEquals.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/GenericInterator.java" />
       </list>
     </option>
   </component>
@@ -135,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545477464951" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545921090846" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -154,39 +180,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Metod">
+  <component name="RunManager" selected="Application.GenericInterator">
+    <configuration name="GenericInterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.GenericInterator" />
+      <module name="java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.bt.Java2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.Juodrastis" />
       <module name="java2" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.TrikampiuPalyginimas.MainTriangle" />
-      <module name="java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.bt.Java2.TrikampiuPalyginimas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTriangleHashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.TrikampiuPalyginimas.MainTriangleHashSet" />
-      <module name="java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.bt.Java2.TrikampiuPalyginimas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,20 +230,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ObjectEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.ObjectEquals" />
+      <module name="java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.bt.Java2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MainTriangle" />
-      <item itemvalue="Application.MainTriangleHashSet" />
       <item itemvalue="Application.MainTriangleTreeSet" />
       <item itemvalue="Application.Metod" />
+      <item itemvalue="Application.ObjectEquals" />
+      <item itemvalue="Application.GenericInterator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Metod" />
-        <item itemvalue="Application.MainTriangleTreeSet" />
-        <item itemvalue="Application.MainTriangleHashSet" />
-        <item itemvalue="Application.MainTriangle" />
+        <item itemvalue="Application.GenericInterator" />
+        <item itemvalue="Application.ObjectEquals" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainTriangleTreeSet" />
+        <item itemvalue="Application.Metod" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +276,9 @@
       <workItem from="1545287633568" duration="3926000" />
       <workItem from="1545292781706" duration="4423000" />
       <workItem from="1545310292717" duration="1077000" />
-      <workItem from="1545474487517" duration="2992000" />
+      <workItem from="1545474487517" duration="5253000" />
+      <workItem from="1545897354755" duration="5331000" />
+      <workItem from="1545917707337" duration="3495000" />
     </task>
     <task id="LOCAL-00001" summary="finish Triangle task">
       <created>1545132271545</created>
@@ -273,11 +301,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545477484511</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="juodrastis">
+      <created>1545477515847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545477515847</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32275000" />
+    <option name="totallyTimeSpent" value="43362000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,8 +327,8 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19062027" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.19667171" />
+      <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.19667171" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -301,7 +336,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -350,28 +385,46 @@
     <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/TrikampiuPalyginimas/MainTriangleHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/TrikampiuPalyginimas/MainTriangleTreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="109" column="5" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Metod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/TrikampiuPalyginimas/MainTriangleTreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/ObjectEquals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/GenericInterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#228#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
