@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9557ba6-6ed5-4b8d-bbd9-515ebd08af3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/bt/Java2/GenericInterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/bt/Java2/GenericInterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java" afterDir="false" />
-    </list>
+    <list default="true" id="d9557ba6-6ed5-4b8d-bbd9-515ebd08af3d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +27,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.48789713">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Employee.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="289">
@@ -47,6 +43,24 @@
                   <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Calc.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="362">
+                  <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#161#162#0" expanded="true" />
+                    <element signature="e#190#191#0" expanded="true" />
+                    <element signature="e#223#224#0" expanded="true" />
+                    <element signature="e#254#255#0" expanded="true" />
+                    <element signature="e#298#299#0" expanded="true" />
+                    <element signature="e#334#335#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -114,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/Bandomasis/Employee.java" />
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Employee.java" />
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Main.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/Calc.java" />
       </list>
     </option>
   </component>
@@ -136,6 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,25 +171,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Java2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Java2" type="462c0819:PsiDirectoryNode" />
-              <item name="Zmones" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546189642116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546417762030" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vytautas-naudzius-paskaitos/Uzdaviniai" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -199,22 +207,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Dezutes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.Dezutes" />
-      <module name="java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.bt.Java2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericInterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.GenericInterator" />
       <module name="java2" />
       <extension name="coverage">
         <pattern>
@@ -252,6 +247,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.Main" />
+      <module name="java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.bt.Java2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.Juodrastis" />
       <module name="java2" />
@@ -264,18 +272,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.GenericInterator" />
       <item itemvalue="Application.Dezutes" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Java8_SummingInt" />
+      <item itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Java8_SummingInt" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Dezutes" />
-        <item itemvalue="Application.GenericInterator" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +312,7 @@
       <workItem from="1546080229209" duration="29733000" />
       <workItem from="1546154087529" duration="3267000" />
       <workItem from="1546367868628" duration="362000" />
-      <workItem from="1546415871523" duration="625000" />
+      <workItem from="1546415871523" duration="892000" />
     </task>
     <task id="LOCAL-00001" summary="finish Triangle task">
       <created>1545132271545</created>
@@ -341,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545921299364</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Employee">
+      <created>1546417515802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546417515802</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107397000" />
+    <option name="totallyTimeSpent" value="107664000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +444,8 @@
     <MESSAGE value="finish Triangle task" />
     <MESSAGE value="juodrastis" />
     <MESSAGE value="Generic, Interator, Equals, Object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic, Interator, Equals, Object" />
+    <MESSAGE value="Employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Employee" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -561,6 +577,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Calc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
