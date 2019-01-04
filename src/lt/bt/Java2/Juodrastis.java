@@ -3,6 +3,7 @@ package lt.bt.Java2;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Juodrastis {
     public static void main(String[] args) {
@@ -29,8 +30,9 @@ public class Juodrastis {
 //        System.out.println("Surinkite vardus į sąrašą");
 //        List<String> list = people
 //                .stream()
-//                .map(Person::getName)
-//                .collect(Collectors.toList());
+//                .sorted((o1, o2)->o1.getItem().getValue().
+//                        compareTo(o2.getItem().getValue())).
+//                        collect(Collectors.toList());
 //        System.out.println(list);
 //
 //        System.out.println("\n Surinkite vardus į „TreeSet“");

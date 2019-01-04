@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9557ba6-6ed5-4b8d-bbd9-515ebd08af3d" name="Default Changelist" comment="" />
+    <list default="true" id="d9557ba6-6ed5-4b8d-bbd9-515ebd08af3d" name="Default Changelist" comment="Baigtas Salaryuzdavinys">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,43 +29,16 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48789713">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Employee.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+                <state relative-caret-position="320">
+                  <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Calc.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="362">
-                  <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#161#162#0" expanded="true" />
-                    <element signature="e#190#191#0" expanded="true" />
-                    <element signature="e#223#224#0" expanded="true" />
-                    <element signature="e#254#255#0" expanded="true" />
-                    <element signature="e#298#299#0" expanded="true" />
-                    <element signature="e#334#335#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -69,29 +47,28 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Bandomasis/Employee.java">
+            <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Salary.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                <state relative-caret-position="306">
+                  <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
                   <folding>
-                    <element signature="e#333#334#0" expanded="true" />
-                    <element signature="e#360#361#0" expanded="true" />
-                    <element signature="e#454#455#0" expanded="true" />
-                    <element signature="e#487#488#0" expanded="true" />
+                    <element signature="e#277#278#0" expanded="true" />
+                    <element signature="e#304#305#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Bandomasis/Java8_SummingInt.java">
+            <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Employee.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="27" selection-start-line="27" selection-end-line="27" />
+                <state relative-caret-position="204">
+                  <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
                   <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#202#203#0" expanded="true" />
+                    <element signature="e#229#230#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -123,12 +100,18 @@
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/E.java" />
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/GenericInterator.java" />
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/Dezutes.java" />
-        <option value="$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java" />
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/Bandomasis/Java8_SummingInt.java" />
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/Bandomasis/Employee.java" />
-        <option value="$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Employee.java" />
-        <option value="$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Main.java" />
         <option value="$PROJECT_DIR$/src/lt/bt/Java2/Calc.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/Zmones2/Employee2.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/Zmones2/Main.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/PVZ/Stream.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/PVZ/Employee.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/PVZ/Salary.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Employee.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Salary.java" />
+        <option value="$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Main.java" />
       </list>
     </option>
   </component>
@@ -151,8 +134,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +154,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Java2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Java2" type="462c0819:PsiDirectoryNode" />
+              <item name="Zmones2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -180,8 +170,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546417762030" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vytautas-naudzius-paskaitos/Uzdaviniai" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546592541415" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BTAJavaDemo-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -207,20 +197,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Dezutes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.Dezutes" />
-      <module name="java2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lt.bt.Java2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Java8_SummingInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.Bandomasis.Java8_SummingInt" />
       <module name="java2" />
@@ -260,6 +237,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.Zmones2.Main" />
+      <module name="java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lt.bt.Java2.Zmones2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lt.bt.Java2.Juodrastis" />
       <module name="java2" />
@@ -272,18 +262,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Dezutes" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Java8_SummingInt" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Java8_SummingInt" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Dezutes" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Java8_SummingInt" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +302,11 @@
       <workItem from="1546080229209" duration="29733000" />
       <workItem from="1546154087529" duration="3267000" />
       <workItem from="1546367868628" duration="362000" />
-      <workItem from="1546415871523" duration="892000" />
+      <workItem from="1546415871523" duration="5272000" />
+      <workItem from="1546425820618" duration="3394000" />
+      <workItem from="1546497595197" duration="10170000" />
+      <workItem from="1546510346427" duration="9134000" />
+      <workItem from="1546582645596" duration="9836000" />
     </task>
     <task id="LOCAL-00001" summary="finish Triangle task">
       <created>1545132271545</created>
@@ -356,11 +350,32 @@
       <option name="project" value="LOCAL" />
       <updated>1546417515802</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Calc">
+      <created>1546417790442</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546417790443</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Calc">
+      <created>1546417874689</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546417874689</updated>
+    </task>
+    <task id="LOCAL-00009" summary="stream 1">
+      <created>1546516280686</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546516280686</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107664000" />
+    <option name="totallyTimeSpent" value="144578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -375,7 +390,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.21709532" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" weight="0.22012103" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.19667171" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,7 +399,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38625205" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31914893" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,7 +421,7 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49756098" weight="0.21709532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.22012103" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.19667171" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -415,7 +430,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25531915" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31914893" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,7 +460,9 @@
     <MESSAGE value="juodrastis" />
     <MESSAGE value="Generic, Interator, Equals, Object" />
     <MESSAGE value="Employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="Employee" />
+    <MESSAGE value="Calc" />
+    <MESSAGE value="stream 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream 1" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -530,20 +547,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-707">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Bandomasis/Java8_SummingInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -553,7 +563,7 @@
     <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Bandomasis/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#333#334#0" expanded="true" />
             <element signature="e#360#361#0" expanded="true" />
@@ -563,10 +573,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Bandomasis/Java8_SummingInt.java">
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Calc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="204">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Juodrastis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Zmones2/Employee2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/PVZ/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/PVZ/Salary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/PVZ/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Zmones2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="48" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -575,23 +643,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Calc.java">
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Salary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lt/bt/Java2/Zmones/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
           </folding>
         </state>
       </provider>

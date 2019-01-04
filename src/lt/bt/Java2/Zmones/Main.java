@@ -17,37 +17,32 @@ import java.util.stream.Collectors;
 public class Main {
     public static void main(String[] args) {
 
-        List<Employee> list = new ArrayList<>();
-        list.add(new Employee("Kazys", 1400.0));
-        list.add(new Employee("Jonas", 800.0));
-        list.add(new Employee("Ona", 900.0));
-        list.add(new Employee("Petras", 1200.0));
-        list.add(new Employee("Ada", 1500.0));
-        list.add(new Employee("Ona", 950.0));
-        list.add(new Employee("Ada", 1400.0));
-        list.add(new Employee("Kazys", 1350.0));
-        list.add(new Employee("Ona", 800.0));
+        List<Salary> list = new ArrayList<>();
+        list.add(new Salary(new Employee("Kazys"), 1400.0));
+        list.add(new Salary(new Employee("Jonas"), 800.0));
+        list.add(new Salary(new Employee("Ona"), 900.0));
+        list.add(new Salary(new Employee("Petras"), 1200.0));
+        list.add(new Salary(new Employee("Ada"), 1500.0));
+        list.add(new Salary(new Employee("Ona"), 950.0));
+        list.add(new Salary(new Employee("Ada"), 1400.0));
+        list.add(new Salary(new Employee("Kazys"), 1350.0));
+        list.add(new Salary(new Employee("Ona"), 800.0));
 
-        System.out.println("---list---");
-        System.out.println(list);
+//        ---sugrupuota ir sudeta---
+        Map<Employee, Double> sumGroup = list.stream()
+                .collect(Collectors.groupingBy(Salary::getName,
+                        Collectors.summingDouble(Salary::getSalary)));
 
-        Map<String, Double> sumGroup = list.stream()
-                .collect(Collectors.groupingBy(Employee::getName,
-                        Collectors.summingDouble(Employee::getSalary)));
-        System.out.println("\n ---sugrupuota ir sudeta---");
-        System.out.println(sumGroup);
+//        ---Didejimo tvarka---
+        System.out.println("\n1. Išrinkite kiek ir kokiam darbuotojui yra išmokėta ir išveskite mažėjimo tvarka pagal išmokėtą sumą: vardas - išmokėta suma:\n");
+        sumGroup.entrySet().stream().sorted(Comparator.comparing(Map.Entry<Employee,Double>::getValue).reversed ())
+                .forEach(e -> System.out.println(e.getKey() +" - "+ e.getValue()));
 
-        System.out.println("---key---");
-        List<String> first = new ArrayList<String>(sumGroup.keySet());
-        List<Double> second = new ArrayList<Double>(sumGroup.values());
-        Naujas(sumGroup.keySet(), sumGroup.values());
-        System.out.println(first);
-        System.out.println(second);
-        System.out.println();
-    }
+        System.out.println("\n2. Suskaičiuokite kiek išmokėjimų (ne suma bet kiek kartų buvo išmokėta) yra kiekvienam darbuotojui ir atspausdinkite: vardas - kiek kartų išmokėta\n");
 
-
-    private static void Naujas (Set<String> a, Collection<Double> b) {
-
+        Set<Salary> setList = new HashSet<>(list);
+        for (Salary temp : setList) {
+            System.out.println(temp.getName() + ": " + Collections.frequency(list, temp));
+        }
     }
 }

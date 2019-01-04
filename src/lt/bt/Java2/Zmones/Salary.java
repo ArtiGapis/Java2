@@ -2,25 +2,31 @@ package lt.bt.Java2.Zmones;
 
 import java.util.Objects;
 
-public class Employee{
+public class Salary {
 
-    private String name;
+    private Employee name;
+    private double salary;
 
-    public Employee(String name) {
+    public Salary(Employee name, double salary) {
         this.name = name;
+        this.salary = salary;
     }
 
-    public String getName() {
+    public Employee getName() {
         return name;
+    }
+
+    public double getSalary() {
+        return salary;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;//palygina rodykles, jeigu rodykles rodo i ta pacia atminties vieta, vadinasi objektai lygus
         if (o == null || getClass() != o.getClass()) return false;//jei objektas o lygus null("tuscias") arba lyginamu objektu klases nelygios(skirtingu klasiu) grazinama false;
-        Employee emp = (Employee) o;//skliausteliuose po lygybes uzrasu(Trikampis) mes kompiliatoriui pasakome, kad mes zinome, jog lyginami objektai tos pacios klases
+        Salary sal = (Salary) o;//skliausteliuose po lygybes uzrasu(Trikampis) mes kompiliatoriui pasakome, kad mes zinome, jog lyginami objektai tos pacios klases
 
-        return Objects.equals(emp.name, name);
+        return Objects.equals(sal.name,name);
     }
 
     @Override
@@ -31,7 +37,8 @@ public class Employee{
 
     @Override
     public String toString() {
-        return name;
+        return "Salary{ Name " + name +
+                ", salary=" + salary +
+                '}';
     }
-
 }
